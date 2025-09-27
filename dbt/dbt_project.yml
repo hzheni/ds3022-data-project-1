@@ -1,4 +1,4 @@
-name: 'taxi_co2'
+name: 'taxi_trip_transformations'
 version: '1.0.0'
 config-version: 2
 
@@ -10,8 +10,3 @@ test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
-
-models:
-  nyc_taxi_emissions:
-    staging:
-      +materialized: table
